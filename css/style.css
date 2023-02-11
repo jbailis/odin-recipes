@@ -1,0 +1,16 @@
+body {
+    max-width: 600px;
+    margin-left: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+}
+
+ul,
+ol {
+    /* little hack for indenting the enumeration symbols: bullet point, numbering, etc... */
+    padding-left: 1.2em;
+}
+
+img {
+    width: 600px;
+}
