@@ -5,6 +5,11 @@ body {
     line-height: 1.6;
 }
 
+/* Intended to create equal spacing between all <body> elements */
+body * {
+    margin: 8px auto;
+}
+
 ul,
 ol {
     /* little hack for indenting the enumeration symbols: bullet point, numbering, etc... */
@@ -13,4 +18,36 @@ ol {
 
 img {
     width: 600px;
+}
+
+.hlist-link {
+    text-decoration: underline;
+    text-decoration-color: red;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: black;
+    padding: 0 20px;
+    border-right: 2px solid gray;
+}
+
+.first-list-element {
+    /* override left padding from hlist-link */
+    padding-left: 0;
+}
+
+.last-list-element {
+    /* override right border from hlist-link */
+    border-right: none;
+}
+
+.action-buttons {
+    display: inline-block;
+    background-color: beige;
+    margin: 20px 0 0 0;
+    line-height: 50px;
+}
+
+.action-buttons .hlist-link {
+    text-decoration: none;
+    letter-spacing: 1px;
 }
