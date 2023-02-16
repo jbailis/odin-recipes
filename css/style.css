@@ -43,6 +43,7 @@ img {
 .action-buttons {
     display: inline-block;
     background-color: beige;
+    border-radius: 10px;
     margin: 20px 0 0 0;
     line-height: 50px;
 }
